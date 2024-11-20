@@ -2050,7 +2050,7 @@ public class Hero extends Char {
 				Statistics.ankhsUsed++;
 				Catalog.countUse(Ankh.class);
 
-				ankh.detach(belongings.backpack);
+				// ankh.detach(belongings.backpack);
 
 				for (Char ch : Actor.chars()) {
 					if (ch instanceof DriedRose.GhostHero) {
